@@ -7,7 +7,7 @@ $base-style
     letter-spacing: .01em
     font-weight: 700
     font-style: normal
-    font-size: 1.5em
+    font-size: $font-size+1.0rem
 
     antialias()
 
@@ -20,22 +20,22 @@ $base-style
     text-transform: none
     letter-spacing: normal
     font-weight: bold
-    font-size: 1rem
+    font-size: $font-size+0.5rem
 
   h3
     color: $color-accent-2
     text-decoration: underline
     font-weight: bold
-    font-size: .9rem
+    font-size: $font-size+0.3rem
 
   h4
   h5
   h6
     display: inline
     text-decoration: none
-    color: $color-accent-3
+    //color: $color-accent-3
     font-weight: bold
-    font-size: .9rem
+    font-size: $font-size+0.2rem
 
   h3
   h4
@@ -100,7 +100,7 @@ $base-style
     width: 100%
     border-collapse: collapse
     text-align: left
-    font-size: $font-size - 2px
+    font-size: $font-size - 1px
     overflow: auto
     display: block
 

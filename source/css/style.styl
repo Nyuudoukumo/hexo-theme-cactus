@@ -65,6 +65,9 @@ body
 
   p
     hyphens(auto)
+    margin-top: 0.5rem; /* 段落上边距 */
+    margin-bottom: 0.5rem; /* 段落下边距 */
+    line-height: 1.6; /* 行高 */
 
   code
     hyphens(manual)
@@ -164,10 +167,16 @@ pre
     border: none
 
 code
-  padding: 0 5px
-  border: 1px dotted $color-border
-  border-radius: 2px
-  -webkit-border-radius: 2px
+  background-color: #f0f0f0;
+  color: #333; /* 深灰色文字 */
+  //padding: 0 5px
+  padding: 2px 4px; /* 较小的内边距 */
+  //border: 1px dotted $color-border
+  //border-radius: 2px
+  border-radius: 3px; /* 轻微的圆角 */
+  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 85%; /* 较小的字体大小 */
+  -webkit-border-radius: 3px
 
 .highlight
   overflow-x: auto
